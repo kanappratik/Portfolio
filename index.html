@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="style.css"> <!-- Assuming you use only CSS file -->
+    <link rel="stylesheet" href="style1.scss"> <!-- Remove if SCSS file not being compiled to CSS -->
+    
+    <!-- BoxIcons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio || Kanap Pratik</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">KANAP PRATIK</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><button id="darkModeToggle">🌙</button></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, I’m <span class="home__title-color">Kanap Pratik</span><br>Frontend Developer</h1>
+                <a href="https://drive.google.com/file/d/1zUBFwgs7ViiEYsdmFUV7f9PVlgsvaIMW/view?usp=drive_link" class="button">View Resume</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/kanap-pratik-popat-a0ba93309" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                
+                <a href="https://github.com/kanappratik" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+           
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydGZvbGlvfGVufDB8fDB8fHww" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I’m Kanap Pratik Popat </h2>
+                    <p class="about__text">Hello, I'm Kanap Pratik Popat, a dedicated web developer with expertise in frontend and backend technologies. Skilled in HTML, CSS, JavaScript, React, Java, and MongoDB.</p>
+                    <br><a href="https://www.linkedin.com/in/kanap-pratik-popat-a0ba93309" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                
+                    <a href="https://github.com/kanappratik" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:kanappratik@gmail.com" class="button">Mail Me</a>
+                </div>  
+                                                 
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">I focus on creating visually engaging, user-centric web applications with modern technologies and tools.</p>
+
+                    <!-- Skill Bars -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                        <div><span class="skills__percentage">95%</span></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                        <div><span class="skills__percentage">85%</span></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div><span class="skills__percentage">65%</span></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">MongoDB</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div><span class="skills__percentage">65%</span></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">React</span>
+                        </div>
+                        <div class="skills__bar skills__react"></div>
+                        <div><span class="skills__percentage">65%</span></div>
+                    </div>
+                </div>
+                <div>
+                   <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvwiyey4wyuw9liu4ejm5.jpg" alt="">
+
+                            
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJECTS =====-->
+        <section class="work section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="experience-details-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com/kanappratik" target="_blank">
+                            <button class="btn project-btn" class="project-btn">Github</button>
+                        </a>
+                        <a href="https://github.com" target="_blank">
+                            <button class="btn project-btn" class="project-btn">Live Demo</button>
+                        </a>
+                    </div>
+                </div>
+<br>
+                <div class="details-container">
+                    <h2 class="experience-sub-title project-title">Project 2</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com/kanappratik" target="_blank">
+                            <button class="btn project-btn">Github</button>
+                        </a>
+                        <a href="https://github.com/kanappratik/Portfolio.git" target="_blank">
+                            <button class="btn project-btn">Live Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EDUCATION =====-->
+        <section class="education-section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container">
+                <div class="details-container">
+                    <h3>Schooling</h3>
+                    <ul class="education">
+                        <li><p>Kendriya Vidyalaya (B.E.G) Pune - 12th with 64% (2021)</p></li>
+                        <br>
+                        <li><p>Kendriya Vidyalaya (B.E.G) Pune - 10th with 68% (2019)</p></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="details-container">
+                    <h3>B.Tech Degree</h3>  
+                    <p>Computer Science from Tatyasaheb Kore Institute of Engineering and Technology</p>
+                    <p>CGPA: 7.3 (2021-2025)</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="mailto:kanappratik@gmail.com" class="contact__form">
+                    <input type="text" placeholder="Name" id="name" class="contact__input">
+                    <input type="email" placeholder="Email" id="email" class="contact__input">
+                    <textarea name="message" id="message" class="contact__input" placeholder="Comment"></textarea>
+                    <input type="submit" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__copy">Kanap Pratik</p>
+        
+        <p class="footer__copy">&#169; kanappratik. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+    <script src="color.js"></script>
+</body>
+</html>
